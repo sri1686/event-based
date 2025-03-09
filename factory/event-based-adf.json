@@ -1,9 +1,9 @@
 {
 	"name": "event-based-adf",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "1c9c44f1-ceb2-46d6-bb51-2c92ab4513e7",
-		"tenantId": "b668d6df-f625-425d-83fd-63397982e5a5"
-	}
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
+	"location": "eastus"
 }
